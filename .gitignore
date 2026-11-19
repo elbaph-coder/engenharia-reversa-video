@@ -1,0 +1,17 @@
+node_modules/
+__pycache__/
+*.pyc
+
+# vídeo de referência, transcrição, fonte do carimbo e quadros cheios (regeráveis)
+referencias/*/fonte/
+f_*.png
+*.raw
+
+# saídas pesadas do estudo (regeráveis com npm run estudo enquanto o vídeo existir)
+referencias/*/analise/cenas.json
+referencias/*/analise/*.jpg
+referencias/*/assets/
+referencias/*/analise/medidas.json
+referencias/*/analise/camadas.json
+*.mp4
+*.mov

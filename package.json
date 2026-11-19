@@ -1,0 +1,18 @@
+{
+  "name": "engenharia-reversa-video",
+  "version": "1.0.0",
+  "description": "Estudo de vídeo de referência e engenharia reversa de motion design: mede cenas, cortes, câmera, texto, cor, som e curvas.",
+  "private": true,
+  "scripts": {
+    "estudo": "python -P scripts/estudo.py",
+    "camadas": "python -P scripts/camadas.py",
+    "decompor": "python -P scripts/decompor.py",
+    "rastreio": "python -P scripts/rastreio.py",
+    "fichas": "python -P scripts/fichas.py",
+    "golpes": "python -P scripts/golpes.py",
+    "test": "node --test \"scripts/testes/*.test.mjs\""
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

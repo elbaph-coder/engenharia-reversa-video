@@ -1,0 +1,6 @@
+numpy
+scipy
+opencv-python-headless
+Pillow
+faster-whisper
+yt-dlp
